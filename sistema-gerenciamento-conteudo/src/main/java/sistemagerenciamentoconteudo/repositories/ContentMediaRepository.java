@@ -1,4 +1,4 @@
-package sistemagerenciamentoconteudo.repositorys;
+package sistemagerenciamentoconteudo.repositories;
 
 import java.util.UUID;
 
