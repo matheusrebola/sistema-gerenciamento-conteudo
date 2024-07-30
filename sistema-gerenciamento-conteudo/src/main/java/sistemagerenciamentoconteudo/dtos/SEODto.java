@@ -1,5 +1,15 @@
 package sistemagerenciamentoconteudo.dtos;
 
-public record SEODto() {
+import java.util.UUID;
+
+import jakarta.validation.constraints.NotNull;
+import sistemagerenciamentoconteudo.entities.Contents;
+
+public record SEODto(
+		@NotNull UUID id,
+		String metaFile,
+		String metaDescription,
+		String metaKeywords,
+		Contents content) {
 
 }

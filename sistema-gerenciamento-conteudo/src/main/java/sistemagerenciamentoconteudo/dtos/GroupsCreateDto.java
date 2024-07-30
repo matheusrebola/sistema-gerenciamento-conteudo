@@ -1,5 +1,7 @@
 package sistemagerenciamentoconteudo.dtos;
 
-public record GroupsCreateDto() {
+public record GroupsCreateDto(
+		String name,
+		String description) {
 
 }

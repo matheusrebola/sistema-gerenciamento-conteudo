@@ -1,5 +1,11 @@
 package sistemagerenciamentoconteudo.dtos;
 
-public record SEOCreateDto() {
+import sistemagerenciamentoconteudo.entities.Contents;
+
+public record SEOCreateDto(
+		String metaFile,
+		String metaDescription,
+		String metaKeywords,
+		Contents content) {
 
 }

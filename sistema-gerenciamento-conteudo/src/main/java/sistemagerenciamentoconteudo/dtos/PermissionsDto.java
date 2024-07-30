@@ -1,5 +1,12 @@
 package sistemagerenciamentoconteudo.dtos;
 
-public record PermissionsDto() {
+import java.util.UUID;
+
+import jakarta.validation.constraints.NotNull;
+
+public record PermissionsDto(
+		@NotNull UUID id,
+		String name,
+		String description) {
 
 }

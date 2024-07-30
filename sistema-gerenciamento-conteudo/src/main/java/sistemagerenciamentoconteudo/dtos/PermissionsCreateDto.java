@@ -1,5 +1,7 @@
 package sistemagerenciamentoconteudo.dtos;
 
-public record PermissionsCreateDto() {
+public record PermissionsCreateDto(
+		String name,
+		String description) {
 
 }
